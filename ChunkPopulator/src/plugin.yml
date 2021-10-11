@@ -1,0 +1,6 @@
+name: ChunkPopulator
+version: 1.0
+author: Canjas
+main: Canjas.ChunkPopulator
+load: startup
+api-version: 1.16
