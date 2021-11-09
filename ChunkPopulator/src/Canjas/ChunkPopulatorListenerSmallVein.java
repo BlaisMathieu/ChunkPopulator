@@ -21,7 +21,7 @@ public class ChunkPopulatorListenerSmallVein extends BlockPopulator {
     public void populate(World world, Random rand, Chunk chunk) {
         Block block;
         for (int x = 0; x < 16; x++) {
-            for (int y = 1; y < 128; y++) {
+            for (int y = 1; y < 70; y++) {
                 for (int z = 0; z < 16; z++) {
                     block = chunk.getBlock(x, y, z);
                     int r = (int) (Math.random() * chance);
